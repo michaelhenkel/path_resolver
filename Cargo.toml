@@ -1,0 +1,13 @@
+[package]
+name = "path_resolver"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+derive_path = { path = "derive_path" }
+path_trait = { path = "path_trait" }
+
+[workspace]
+members = ["derive_path","path_trait"]
